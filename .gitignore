@@ -1,1 +1,2 @@
+# do not commit downloaded Ansible roles
 roles/geerlingguy.*
