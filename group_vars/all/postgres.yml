@@ -1,7 +1,8 @@
+# group_vars/all/postgres.yml
 
 postgresql_users:
   - name: demo
-    password: rah4OoNgi0Ohsiepheetai4Eejeekeef
+    password: '{{ secrets_demo_password }}'
     state: present
 
 postgresql_databases:
