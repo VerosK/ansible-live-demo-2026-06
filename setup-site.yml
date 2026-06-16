@@ -1,6 +1,6 @@
 
 - name: Setup database server
-  hosts: database
+  hosts: all
 
   roles:
     - role: geerlingguy.postgresql
