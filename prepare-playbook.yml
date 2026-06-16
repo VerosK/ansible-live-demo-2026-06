@@ -1,0 +1,10 @@
+#!/usr/bin/env ansible-playbook
+
+- name: Get roles
+  hosts: localhost
+  become: yes
+
+  tasks:
+    - name: Install Ansible Galaxy roles
+      ansible.builtin.command:
+        cmd: ansible-galaxy install -r requirements.yml
