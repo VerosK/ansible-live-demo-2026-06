@@ -1,0 +1,3 @@
+# group_vars/all/adminer.yml
+
+adminer_install_path: /opt/adminer-5

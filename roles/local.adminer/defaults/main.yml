@@ -1,0 +1,4 @@
+# roles/local.adminer/defaults/main.yml
+
+adminer_install_path: /opt/adminer
+adminer_download_url: https://github.com/vrana/adminer/releases/download/v5.4.2/adminer-5.4.2.php
