@@ -12,3 +12,5 @@
   get_url:
     url: '{{ adminer_download_url }}'
     dest: '{{ adminer_install_path }}/adminer.php'
+    checksum: '{{ adminer_checksum }}'
+  tags: download

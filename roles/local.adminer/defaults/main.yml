@@ -4,3 +4,6 @@ adminer_install_path: /opt/adminer
 adminer_version: 5.4.2
 adminer_download_url:
   https://github.com/vrana/adminer/releases/download/v{{ adminer_version }}/adminer-{{ adminer_version }}.php
+
+adminer_checksum:
+  "sha256:5b761efe7049bf586119256324fd417b49e5bb9243b40d9734fe86655e4402fd"
