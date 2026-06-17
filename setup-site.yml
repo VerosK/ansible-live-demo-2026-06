@@ -4,3 +4,4 @@
 
   roles:
     - role: geerlingguy.postgresql
+    - role: local.adminer

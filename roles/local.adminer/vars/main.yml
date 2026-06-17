@@ -1,3 +1,0 @@
-# roles/local.adminer/vars/main.yml
-
-adminer_version: 5.8.1
